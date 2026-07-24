@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(291, 3%, 46%);
+    padding: 16px 32px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-links a {
+    color: hsl(309, 45%, 88%);
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  .hero {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 16px 0;
+    
+  }
+  .btn {
+    background-color: hsl(291, 3%, 46%);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    opacity: 0.85;
+  }
