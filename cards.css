@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    border: 10px solid black;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.box:hover {
+    transform: translateY(-4px);
+    transition: 0.2s ease;
+}
+
+#box1{
+    background-color: hsl(222, 69%, 70%);
+
+}
+#box2{
+    background-color: hsl(191, 100%, 50%);
+}
+#box3{
+    background-color: hsl(186, 60%, 59%);
+}
+#box1:hover{
+    background-color: hsl(222, 69%, 80%);
+}
+#box2:hover{
+    background-color: hsl(191, 100%, 60%);
+}
+#box3:hover{
+    background-color: hsl(186, 60%, 70%);
+}
