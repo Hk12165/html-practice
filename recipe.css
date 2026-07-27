@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --clr-primary: hsl(340, 100%, 68%);
+    --font-base: "Plus Jakarta Sans",sans-serif;
+    --space-md: 20px;
+
+}
+body{
+    font-family: var(--font-base);
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6rem;
+}
+.heading{
+    color: var(--clr-primary);
+    background-color: hsl(156, 86%, 84%);
+    /* width: 100vh; */
+    /* min-height: 20vh; */
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: hsl(340, 91%, 38%);
+
+}
+h4{
+    color: var(--clr-primary);
+    background-color: lightcyan;
+    margin: var(--space-md);
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+.image{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.steps li{
+    /* border: 1.5px solid darkgreen; */
+    padding-left: 0.5rem;
+    margin-bottom: var(--space-md);
+}
+.facts{
+    color: var(--clr-primary);
+    background-color: rgb(255, 199, 221);
+    margin: var(--space-md);
+    padding: 0.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.table{
+    border: 1px solid hsl(30, 100%, 78%);
+    border-collapse: collapse;
+    margin: var(--space-md);
+    background-color: hsl(282, 78%, 80%);
+}
+
+.table th,
+.table td{
+    border: 1px solid hsl(206, 67%, 33%);
+}
+
+tbody tr:nth-child(odd){
+    background-color: hsl(183, 72%, 82%);
+    color: rgb(30, 147, 206);
+    text-align: center;
+} 
+
+/* td > tr specificity
+
+ tbody td:nth-child(even){
+    color: tomato;
+    text-align: center; 
+ } 
+ tbody td:nth-child(odd){
+    color: rgb(255, 99, 74);
+    text-align: center;
+} */
+
+.link{
+    transition: all 0.2s  ease;  
+    color: rgb(1, 1, 0);
+}
+.link:hover{
+    color: orange;
+}
